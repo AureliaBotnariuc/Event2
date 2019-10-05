@@ -1,0 +1,18 @@
+/* libre-franklin-regular - latin */
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'),
+         url('../fonts/libre-franklin-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/libre-franklin-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html {
+      box-sizing:border-box;
+    
+  }
+  *, *::before, *::after{
+      box-sizing:inherit;
+  }
+  

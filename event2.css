@@ -1,0 +1,149 @@
+
+
+body{
+    font-family:Verdana;
+    font-style:normal;
+    font-size:18px;
+    line-height:1.2;
+    font-weight:normal;
+    color:#333333;
+    }
+
+   .wrapper{
+    max-width:1440px;
+    margin:0 auto;
+    }
+   
+   .wrapper.header{
+    background-color: rgb(139, 11, 11);
+    }
+
+   .header-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    justify-content:space-between;
+    padding-top:56px;
+    } 
+
+   /* m-am jucat foarte mult cu lista asta..la inceput s-a pozitionat sus dar dupa ce am pus poza la background s-a destramat totul)) */
+    .header__list{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:500px;
+    font-size: 18px;
+    line-height: 22px;
+    top:93px;
+    }
+    
+
+   .header__items{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:15px;
+    left:500px;
+    }
+
+    .header__items:last-child{
+    margin-right: 0;
+    }
+    
+    .header__logo{
+    position:absolute;
+    top:right;
+    font-size:20px;
+    }
+    
+    .header__link{
+    font-size:18;
+    line-height:24;
+    color:white;
+         }
+
+.wrapper img{
+position:relative;
+width: 100%;
+left: 0px;
+top: 0px;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+   
+.main{
+position:absolute;
+width: 694px;
+height: 78px;
+left: 165px;
+top: 267px;
+color:white;
+   }
+ 
+   .hero-section{
+    position:absolute;
+    width: 1440px;
+    height: 544px;
+    left: 0px;
+    top: 768px;
+    background-color:white;
+    text-align:justify;
+    }
+
+   .hero-section h1 p{
+       color:black;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 30px;
+       background-color: aquamarine;
+   }
+
+   .skills{
+    position: absolute;
+    width: 1440px;
+    height: 693px;
+    left: 0px;
+    top: 1312px;
+    background-color:#FFFAF2;
+   }
+   
+   .skills img{
+    width: 350px;
+    height: 340px;
+    left: 165px;
+    top: 1520px;
+   }
+
+   .portfolio{
+    position: absolute;
+    width: 1440px;
+    height: 822px;
+    left: 2px;
+    top: 2005px;
+   }
+   
+   .portfolio img{
+    display:flex;
+    flex-wrap: wrap;
+    float:right;
+    overflow:auto;
+    }
+   
+    .portfolio p{
+    width: 349px;
+    height: 137px;
+    left: 168px;
+    top: 2286px;
+    text-align: left;
+    float:left;
+      }
+
+/* nu inteleg de ce ultimul container s-a pozitionat asa..am impresia ca in figma nu toate marimile sunt corecte*/
+   .contacts{
+    position:absolute;
+    width: 349px;
+    height: 137px;
+    left: 168px;
+    top: 2286px;
+    background-color:#FFFAF2;
+   }
+   
